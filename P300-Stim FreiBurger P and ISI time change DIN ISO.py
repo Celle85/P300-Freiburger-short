@@ -101,7 +101,7 @@ ExpName='P300'
 myDlg = gui.Dlg(title=ExpName)
 myDlg.addField('Monitor:', choices= MonitorList)
 myDlg.addField('Assumed Acuity:', 3.0, color="red")
-myDlg.addField('LogMAR DIN ISO or psychometric', myDlg.addFixedField('?'), choices = ['logMAR (DIN ISO)', 'logMAR psychometric'])
+myDlg.addField('LogMAR DIN ISO or psychometric', choices = ['logMAR (DIN ISO)', 'logMAR psychometric'])
 myDlg.addField('Stimulus duration', choices = ['short', 'long'])
 myDlg.addField('# Trials:', 1000)
 myDlg.addField('Ringgroessen', choices = ['4', '6'])
